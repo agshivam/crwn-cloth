@@ -5,7 +5,6 @@ import SignInForm from '../../componenets/sign-in-form/sign-in-form.component';
 const Authentication =() => {
    return (
         <div className='authentication-container'>
-            <h1>Sign In Page</h1>
             <SignInForm/>         
             <SignUpForm/>
         </div>
@@ -13,3 +12,5 @@ const Authentication =() => {
 };
 
 export default Authentication;
+
+
