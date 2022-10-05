@@ -2,12 +2,12 @@ import { useContext } from 'react';
 
 import ProductCard from '../../componenets/product-card/product-card.component.jsx';
 
-import { ProdcutContext } from '../../contexts/products.context';
+import { ProductsContext } from '../../contexts/products.context';
 
 import './shop.styles.scss';
 
 const Shop = () => {
-  const { products } = useContext(ProdcutContext);
+  const { products } = useContext(ProductsContext);
 
   return (
     <div className='products-container'>
